@@ -4,7 +4,7 @@ loadstring(game:HttpGet(l,true))()
 nouni=true
 end
 local Notification = loadstring(game:HttpGet("https://api.irisapp.ca/Scripts/IrisBetterNotifications.lua"))()
-
+getgenv()["IrisAd"]=true
 -- Notifications
 if game.PlaceId==155615604 then
 Notification.WallNotification("Test", "Test", {
