@@ -3,17 +3,6 @@ local function lo(l)
 loadstring(game:HttpGet(l,true))()
 nouni=true
 end
-local Notification = loadstring(game:HttpGet("https://api.irisapp.ca/Scripts/IrisBetterNotifications.lua"))()
-getgenv()["IrisAd"]=true
--- Notifications
-if game.PlaceId==155615604 then
-Notification.Notify("3G Multi Hub: Game Loaded Prison Life", "Script Used : Previal X , Loaded!", "rbxasset://textures/ui/GuiImagePlaceholder.png", {
-Duration = 2,       
-Main = {
-    Rounding = true,
-}
-});
-
 
 -- Arsenal 
 if game.PlaceId==286090429 then
@@ -26,4 +15,8 @@ end
 -- Prison Life 
 if game.PlaceId==155615604 then
 lo("https://pastebin.com/raw/mHfK0Xk4")
+end
+
+if game.PlaceId==155615604 then
+lo("https://raw.githubusercontent.com/Mapple7777/Retail-Tycoon-2-GUI/main/Gui.lua"")
 end
