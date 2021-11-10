@@ -3,6 +3,11 @@ local function lo(l)
 loadstring(game:HttpGet(l,true))()
 nouni=true
 end
+-- Arsenal 
 if game.PlaceId==286090429 then
 lo("https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub")
+end
+-- Prison Life
+if game.PlaceId==155615604 then
+lo ("https://pastebin.com/raw/mHfK0Xk4")
 end
