@@ -18,5 +18,5 @@ lo("https://pastebin.com/raw/mHfK0Xk4")
 end
 
 if game.PlaceId==5865858426 then
-lo("https://raw.githubusercontent.com/Mapple7777/Retail-Tycoon-2-GUI/main/Gui.lua"")
+lo("https://raw.githubusercontent.com/Mapple7777/Retail-Tycoon-2-GUI/main/Gui.lua")
 end
