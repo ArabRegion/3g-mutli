@@ -12,7 +12,7 @@ end
 
 
 
--- Prison Life
-if game.PlaceId==155615604 then
+-- Arsenal 
+if game.PlaceId== then
 lo("https://pastebin.com/raw/mHfK0Xk4")
 end
