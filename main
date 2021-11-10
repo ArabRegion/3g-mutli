@@ -4,6 +4,15 @@ loadstring(game:HttpGet(l,true))()
 nouni=true
 end
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/TrillyX/Resources/main/NFLib"))()
+
+-- Notifications
+if game.PlaceId==155615604 then
+        Library:Notification("3G Multi Hub", "Loading Now..", 5, Color3.fromRGB(255, 0, 0))
+wait(2)
+Library:Notification("3G Multi Hub", "Game Detected `Arsenal`", 5, Color3.fromRGB(255, 0, 0))
+end
+
+
 -- Arsenal 
 if game.PlaceId==286090429 then
 lo("https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub")
@@ -13,9 +22,6 @@ end
 
 
 -- Prison Life 
-        Library:Notification("3G Multi Hub", "Loading Now..", 5, Color3.fromRGB(255, 0, 0))
-wait(2)
-Library:Notification("3G Multi Hub", "Game Detected `Arsenal`", 5, Color3.fromRGB(255, 0, 0))
 if game.PlaceId==155615604 then
 lo("https://pastebin.com/raw/mHfK0Xk4")
 end
