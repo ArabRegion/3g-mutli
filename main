@@ -3,13 +3,16 @@ local function lo(l)
 loadstring(game:HttpGet(l,true))()
 nouni=true
 end
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/TrillyX/Resources/main/NFLib"))()
+local Notification = loadstring(game:HttpGet("https://api.irisapp.ca/Scripts/IrisBetterNotifications.lua"))()
 
 -- Notifications
 if game.PlaceId==155615604 then
-        Library:Notification("3G Multi Hub", "Loading Now..", 5, Color3.fromRGB(255, 0, 0))
-wait(2)
-Library:Notification("3G Multi Hub", "Game Detected `Arsenal`", 5, Color3.fromRGB(255, 0, 0))
+Notification.WallNotification("Test", "Test", {
+    Duration = 3,
+    TitleSettings = {
+        Enabled = false
+    }
+});
 end
 
 
